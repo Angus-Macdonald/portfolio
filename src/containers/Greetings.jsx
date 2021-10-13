@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { greetings } from "../portfolio";
 import code from '../assets/lottie/coding.json';
-import Pdf from '../documents/resume.pdf';
+import Pdf from '/documents/resume.pdf';
 
 import { Fade } from 'react-reveal';
 

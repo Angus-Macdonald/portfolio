@@ -12,7 +12,7 @@ export const greetings = {
 }
 
 export const openSource = {
-  githubUserName: 'AngusMacdonald1996',
+  githubUserName: 'angus-macdonald',
 };
 
 export const contact = {
@@ -21,7 +21,7 @@ export const contact = {
 }
 
 export const socialLinks = {
-    "github": "https://github.com/AngusMacdonald1996",
+    "github": "https://github.com/angus-macdonald",
     "linkedin": "https://www.linkedin.com/in/angus-macdonald-399a061aa/",
     "email": "angusmacdonald1996@outlook.com",
     "mobile": "0417675508"
