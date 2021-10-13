@@ -24,7 +24,7 @@ export const socialLinks = {
     "github": "https://github.com/angus-macdonald",
     "linkedin": "https://www.linkedin.com/in/angus-macdonald-399a061aa/",
     "email": "angusmacdonald1996@outlook.com",
-    "mobile": "0417675508"
+    "mobile": "0417 675 508"
 }
 
 export const skillsSection = {
