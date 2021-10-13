@@ -1,22 +1,21 @@
 const gulp = require("gulp");
 const gap = require("gulp-append-prepend");
 
-gulp.task("licenses", async function() {
+async function license() {
   // this is to add Creative Tim licenses in the production mode for the minified js
-  await gulp
+  gulp
     .src("build/static/js/*chunk.js", { base: "./" })
     .pipe(
       gap.prependText(`/*!
 
 =========================================================
-* Argon Design System React - v1.1.0
+* Paper Kit React - v1.2.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
+* Product Page: https://www.creative-tim.com/product/paper-kit-react
+* Copyright 2020 Creative Tim (http://www.creative-tim.com)
 
-* Coded by Creative Tim
+* Coded by HarshElectronics
 
 =========================================================
 
@@ -27,20 +26,19 @@ gulp.task("licenses", async function() {
     .pipe(gulp.dest("./", { overwrite: true }));
 
   // this is to add Creative Tim licenses in the production mode for the minified html
-  await gulp
+  gulp
     .src("build/index.html", { base: "./" })
     .pipe(
       gap.prependText(`<!--
 
 =========================================================
-* Argon Design System React - v1.1.0
+* Paper Kit React - v1.2.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
+* Product Page: https://www.creative-tim.com/product/paper-kit-react
+* Copyright 2020 Creative Tim (http://www.creative-tim.com)
 
-* Coded by Creative Tim
+* Coded by HarshElectronics
 
 =========================================================
 
@@ -51,20 +49,19 @@ gulp.task("licenses", async function() {
     .pipe(gulp.dest("./", { overwrite: true }));
 
   // this is to add Creative Tim licenses in the production mode for the minified css
-  await gulp
+  gulp
     .src("build/static/css/*chunk.css", { base: "./" })
     .pipe(
       gap.prependText(`/*!
 
 =========================================================
-* Argon Design System React - v1.1.0
+* Paper Kit React - v1.2.0
 =========================================================
 
-* Product Page: https://www.creative-tim.com/product/argon-design-system-react
-* Copyright 2020 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/master/LICENSE.md)
+* Product Page: https://www.creative-tim.com/product/paper-kit-react
+* Copyright 2020 Creative Tim (http://www.creative-tim.com)
 
-* Coded by Creative Tim
+* Coded by HarshElectronics
 
 =========================================================
 
@@ -74,4 +71,7 @@ gulp.task("licenses", async function() {
     )
     .pipe(gulp.dest("./", { overwrite: true }));
   return;
-});
+}
+
+gulp.task("licenses", license);
+gulp.task("default", license);
