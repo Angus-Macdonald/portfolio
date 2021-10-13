@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { greetings } from "../portfolio";
 import code from '../assets/lottie/coding.json';
-import Pdf from 'src/documents/resume.pdf';
+import Pdf from '../docs/resume.pdf'
 
 import { Fade } from 'react-reveal';
 
@@ -51,6 +51,7 @@ const Greetings = () => {
                           color="default"
                           href={Pdf}
                           target = "_blank"
+                          rel="noopener noreferrer"
                         >
                           <span className="btn-inner--icon mr-1">
                             <i className="fa fa-file" />
