@@ -16,14 +16,14 @@ export const openSource = {
 };
 
 export const contact = {
-  "email": "angusmacdonald1996@outlook.com",
+  "email": "angus@houdini.dev",
   "mobile": "0417 675 508"
 }
 
 export const socialLinks = {
     "github": "https://github.com/angus-macdonald",
     "linkedin": "https://www.linkedin.com/in/angus-macdonald-399a061aa/",
-    "email": "angusmacdonald1996@outlook.com",
+    "email": "angus@houdini.dev",
     "mobile": "0417 675 508"
 }
 
@@ -100,64 +100,16 @@ export const skillsSection = {
 
 export const educationInfo = [
     {
-      schoolName: 'Harvard University',
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
-      descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      ],
-    },
-    {
-      schoolName: 'Harvard',
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
-      descBullets: [
-        'Lorem ipsum dolor sit amet, consectetfgur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      ],
-    },
-    {
-      schoolName: 'Stanford University',
-      subHeader: 'Bachelor of Science in Computer Science',
-      duration: 'September 2013 - April 2017',
-      desc:
-        'Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...',
-      descBullets: ['Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit'],
-    },
+      schoolName: 'Queensland University of Technology',
+      subHeader: 'Bachelor of Information Technology - Computer Science',
+      duration: 'February 2019 - Current',
+      desc: 'Majoring in Computer Science, Minors in Intelligent Systems and Computational & Simulation Science'
+    }
 ]
 
 export const experience = [
   {
-    role: 'Software Engineer',
-    company: 'Google',
-    companylogo: googlelogo,
-    date: 'June 2018 – Present',
-    desc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-    descBullets: [
-      'Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-    ],
-  },
-  {
-    role: 'Front-End Developer',
-    company: 'Github',
-    companylogo: github,
-    date: 'May 2017 – May 2018',
-    desc:
-      'Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
-  {
-    role: 'Software Engineer Intern',
-    company: 'Airbnb',
-    companylogo: airbnb,
-    date: 'Jan 2015 – Sep 2015',
-    desc:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-  },
+  }
 ]
 
 export const projects = [
