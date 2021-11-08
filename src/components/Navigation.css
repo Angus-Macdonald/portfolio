@@ -1,9 +1,8 @@
 @font-face {
-    font-family: Augestina;
-    src: url(../assets/fonts/Agustina.otf);
+    font-family: 'Open Sans', sans-serif;
+    src: 'src/assets/fonts/OpenSans-SemiBold.ttf';
 }
 
 #nav-title{
-    font-family: Augestina;
-    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
 }
