@@ -107,6 +107,11 @@ export const educationInfo = [
     }
 ]
 
+export const experience = [
+  {
+    
+  }
+]
 
 export const projects = [
   {
