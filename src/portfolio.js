@@ -107,27 +107,30 @@ export const educationInfo = [
     }
 ]
 
-export const experience = [
-  {
-  }
-
-]
 
 export const projects = [
   {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-  },
-  {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-  },
-  {
-    name: "lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+    name: "Tool Library - C#",
+    desc: "Using the .NET Console, I created a service to allows users to borrow multiple tools from a library, alongside administration priviledges.",
     link: {
-      name: "hanzla",
-      url: "kasjfklsdjf"
+    name: "Code and Technical Report Repository",
+    url: "www.github.com/Angus-Macdonald/Csharp_Library"
+    }
+  },
+  {
+    name: "Artificial Intelligence - Python",
+    desc: "Using recursive functions and object-orientated design, the project is able to find the optimal path to mine resources.",
+    link: {
+      name: "Code and Report Repository",
+      url: "www.github.com/Angus-Macdonald/AI-Mining-Python"
+    }
+  },
+  {
+    name: "Billboard Management and Display - Java",
+    desc: "As a team, I developed a dynamic GUI for a service that allowed users to create digital billboards, and schedule their display.",
+    link: {
+      name: "Code Repository",
+      url: "www.github.com/Angus-Macdonald/BillboardHero"
     }
   }
 ]

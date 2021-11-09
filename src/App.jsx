@@ -18,7 +18,6 @@ const App = () => {
                         <Greetings/>
                         <Skills />
                         <Projects />
-                        <Experience />
                         <Education />
                     </>
                 )}/>
