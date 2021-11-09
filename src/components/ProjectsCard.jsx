@@ -29,6 +29,7 @@ const ProjectsCard = ({data}) => {
                             className="btn-neutral btn-icon"
                             color="primary"
                             href={data.link.url}
+                            target="_blank"
                             >
                             <span className="btn-inner--icon">
                                 <i className="fa fa-arrow-right mr-2" />
