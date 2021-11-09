@@ -32,11 +32,11 @@ export const skillsSection = {
     subTitle: 'Throughout my years of education, I have obtained a library of languages and frameworks.',
     skills: [
       emoji(
-        '⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications'
+        '⚡ Develop code for real-world problems and projects, such as simulations and interactive applications.'
       ),
-      emoji('⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'),
+      emoji('⚡ Follow coding conventions with clear commenting and informative documentation.'),
       emoji(
-        '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean'
+        '⚡ Use of third-party services, such as RESTApi and AWS.'
       ),
     ],
     
