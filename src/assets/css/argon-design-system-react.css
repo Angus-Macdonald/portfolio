@@ -10987,7 +10987,7 @@ button.section-darker:focus {
   stroke: #2dce89; }
 
 .fill-info {
-  fill: #11cdef; }
+  fill: #009af7; }
 
 .stroke-info {
   stroke: #11cdef; }
@@ -11555,7 +11555,7 @@ a.text-green:hover, a.text-green:focus {
   color: #1f8f5f !important; }
 
 .text-teal {
-  color: #11cdef !important; }
+  color: #009af7 !important; }
 
 a.text-teal:hover, a.text-teal:focus {
   color: #0b90a8 !important; }
