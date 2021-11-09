@@ -11756,8 +11756,8 @@ a.text-lighter:hover, a.text-lighter:focus {
 .btn-sm, .btn-group-sm > .btn {
   font-size: 0.75rem; }
   .btn-sm.btn-icon-only, .btn-group-sm > .btn-icon-only.btn {
-    width: 35px;
-    height: 35px; }
+    width: 50px;
+    height: 50px; }
   .btn-sm .btn-inner--icon, .btn-group-sm > .btn .btn-inner--icon {
     font-size: 0.5rem; }
 
@@ -11830,7 +11830,7 @@ a.text-lighter:hover, a.text-lighter:focus {
     padding-right: 3em; }
 
 .btn-icon .btn-inner--icon img {
-  width: 20px; }
+  width: 30px; }
 
 .btn-icon .btn-inner--text:not(:first-child) {
   margin-left: .75em; }
@@ -11877,7 +11877,7 @@ a.btn-icon-only {
 .btn-twitter {
   color: #fff;
   background-color: #1da1f2;
-  border-color: #1da1f2;
+  border-color: #1788ce;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08); }
   .btn-twitter:hover {
     color: #fff;
