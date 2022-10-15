@@ -6,8 +6,8 @@ import airbnb from './assets/img/icons/common/airbnbLogo.png'
 
 export const greetings = {
     "name": "Angus Macdonald",
-    "title": "I am no longer interested in job opportunities.",
-    "description": "Studying computer science, simulations & intelligent systems at the Queensland University of Technology.",
+    "title": "Software engineer at Precision AI",
+    "description": "Graduate of computer science, minors in simulations & intelligent systems at the Queensland University of Technology.",
     "resumeLink": "https://houdini.dev"
 }
 
