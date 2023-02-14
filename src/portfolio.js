@@ -70,7 +70,7 @@ export const skillsSection = {
         fontAwesomeClassname: 'logos:javascript',
       },
         {
-        skillName: 'Vue.js',
+        skillName: 'vuejs',
         fontAwesomeClassname: 'vscode-icons:file-type-vue',
       },
       {
