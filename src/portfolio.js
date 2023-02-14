@@ -110,13 +110,7 @@ export const educationInfo = [
 ]
 
 export const experience = [
-  {
-    	{
-		role: "Software engineer",
-		company: "Precision AI",
-		date: "Jan 2022 – Current",
-	},
-  }
+	{}
 ]
 
 export const projects = [
