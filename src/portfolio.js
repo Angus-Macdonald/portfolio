@@ -7,7 +7,7 @@ import airbnb from './assets/img/icons/common/airbnbLogo.png'
 export const greetings = {
     "name": "Angus Macdonald",
     "title": "Software engineer at Precision AI",
-    "description": "Graduate of computer science, minors in simulations & intelligent systems at the Queensland University of Technology.",
+    "description": "Full-stack developer with expertise in building reactive front-end web applications served by .NET services hosted in cloud environments. I deliver complete web solutions that are not only visually appealing and user-friendly, but also scalable and secure.",
     "resumeLink": "https://houdini.dev"
 }
 
@@ -16,42 +16,46 @@ export const openSource = {
 };
 
 export const contact = {
-  "email": "angus@houdini.dev",
-  "mobile": "0417 675 508"
+  "email": "angus@houdini.dev"
 }
 
 export const socialLinks = {
     "github": "https://github.com/angus-macdonald",
     "linkedin": "https://www.linkedin.com/in/angus-macdonald-399a061aa/",
     "email": "angus@houdini.dev",
-    "mobile": "0417 675 508"
 }
 
 export const skillsSection = {
     title: 'My Skills',
-    subTitle: 'Throughout my years of education, I have obtained a library of languages and frameworks.',
+    subTitle: 'A showcase of my diverse and extensive education in programming languages and frameworks.',
     skills: [
       emoji(
-        '⚡ Develop code for real-world problems and projects, such as simulations and interactive applications.'
+        '⚡ Strong focus on test-driven development.'
       ),
-      emoji('⚡ Follow coding conventions with clear commenting and informative documentation.'),
+      emoji('⚡ Experience designing programs that are scalable, testable, and maintainable.'),
       emoji(
-        '⚡ Use of third-party services, such as RESTApi and AWS.'
+        '⚡ Emphasis on using design patterns to eliminate dependencies and promote good software architecture. '
+      ),
+        emoji(
+        '⚡ Commitment to writing clean, efficient code that can be easily maintained and modified over time. '
+      ),
+        emoji(
+        '⚡ Continuously seeking new ways to improve skills and stay ahead of industry trends.'
       ),
     ],
     
     softwareSkills: [
       {
-        skillName: 'Python',
-        fontAwesomeClassname: 'logos:python',
-      },
-      {
-        skillName: 'C',
-        fontAwesomeClassname: 'vscode-icons:file-type-c3',
+        skillName: 'Typescript',
+        fontAwesomeClassname: 'logos:typescript-icon',
       },
       {
         skillName: 'C-Sharp',
         fontAwesomeClassname: 'vscode-icons:file-type-csharp2',
+      },
+      {
+        skillName: 'Python',
+        fontAwesomeClassname: 'logos:python',
       },
       {
         skillName: 'Java',
@@ -64,6 +68,10 @@ export const skillsSection = {
       {
         skillName: 'JavaScript',
         fontAwesomeClassname: 'logos:javascript',
+      },
+        {
+        skillName: 'Vue.js',
+        fontAwesomeClassname: 'vscode-icons:file-type-vue',
       },
       {
         skillName: 'reactjs',
@@ -89,12 +97,6 @@ export const skillsSection = {
         skillName: 'linux',
         fontAwesomeClassname: 'vscode-icons:folder-type-linux',
       },
-      {
-        skillName: 'macOS',
-        fontAwesomeClassname: 'vscode-icons:folder-type-macos',
-      },
-
-
     ],
 }
 
@@ -102,7 +104,7 @@ export const educationInfo = [
     {
       schoolName: 'Queensland University of Technology',
       subHeader: 'Bachelor of Information Technology - Computer Science',
-      duration: 'February 2019 - Current',
+      duration: 'February 2019 - July 2022',
       desc: 'Majoring in Computer Science, Minors in Intelligent Systems and Computational & Simulation Science'
     }
 ]
