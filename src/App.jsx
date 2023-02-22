@@ -17,8 +17,9 @@ const App = () => {
                         <Navigation />
                         <Greetings/>
                         <Skills />
-                        <Projects />
+                        <Experience />
                         <Education />
+                        <Projects />
                     </>
                 )}/>
             </Switch>
