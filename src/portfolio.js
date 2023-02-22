@@ -113,7 +113,7 @@ export const experience = [
 	{
 		role: "Software Engineer",
 		company: "Precision AI",
-		companylogo: "/img/icons/common/precision.jpg",
+		companylogo: "/assets/img/icons/common/precision.jpg",
 		date: "Jan 2022 – Current",
 		desc: "I work as a full-stack developer, building features for a 3D preoperative surgical planning web-app.",
 	},
