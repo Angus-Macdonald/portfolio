@@ -16,7 +16,7 @@ const Experience = () => {
               <Fade left duration={1000} distance="40px">
               <div className="d-flex p-4">
                     <div>
-                        <div className="icon icon-lg icon-shape bg-dark shadow rounded-circle text-info">
+                        <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-info">
                         <i className="ni ni-briefcase-24 text-info" />
                         </div>
                     </div>
