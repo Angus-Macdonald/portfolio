@@ -30,17 +30,17 @@ export const skillsSection = {
     subTitle: 'A showcase of my diverse and extensive education in programming languages and frameworks.',
     skills: [
       emoji(
-        '⚡ Strong focus on test-driven development.'
+        ' ⚡ Strong focus on test-driven development.'
       ),
-      emoji('⚡ Experience designing programs that are scalable, testable, and maintainable.'),
+      emoji(' ⚡ Experience designing programs that are scalable, testable, and maintainable.'),
       emoji(
-        '⚡ Emphasis on using design patterns to eliminate dependencies and promote good software architecture. '
+        ' ⚡ Emphasis on using design patterns to eliminate dependencies and promote good software architecture. '
       ),
         emoji(
-        '⚡ Commitment to writing clean, efficient code that can be easily maintained and modified over time. '
+        ' ⚡ Commitment to writing clean, efficient code that can be easily maintained and modified over time. '
       ),
         emoji(
-        '⚡ Continuously seeking new ways to improve skills and stay ahead of industry trends.'
+        ' ⚡ Continuously seeking new ways to improve skills and stay ahead of industry trends.'
       ),
     ],
     
@@ -110,7 +110,13 @@ export const educationInfo = [
 ]
 
 export const experience = [
-	{}
+	{
+		role: "Software Engineer",
+		company: "Precision AI",
+		companylogo: "/img/icons/common/precision.jpg",
+		date: "Jan 2022 – Current",
+		desc: "I work as a full-stack developer, building features for a 3D preoperative surgical planning web-app.",
+	},
 ]
 
 export const projects = [
