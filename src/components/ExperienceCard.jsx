@@ -31,7 +31,7 @@ const ExperienceCard = ({data}) => {
         <Col lg="4">
         <Fade left duration={1000} distance="40px">
             <Card style={{flex: 1}} className="shadow-lg--hover shadow border-0 text-center rounded">
-                <CardHeader style={{background: rgb(colorArrays)}} >
+                <CardHeader className="bg-dark" >
                     <h5 className="text-white">{data.company}</h5>
                 </CardHeader>
                 <CardBody className="py-5">
