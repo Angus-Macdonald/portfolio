@@ -39,14 +39,14 @@ const Greetings = () => {
               <Container className="py-lg-md d-flex">
                 <div className="col px-0">
                   <Row>
-                    <Col lg="5">
-                      <h3 className="display-4 text-white">
+                    <Col lg="7">
+                      <p className="h4 text-white">
                         {greetings.title + " "}
-                      </h3>
+                      </p>
                       <p className="lead text-white">{greetings.description}</p>
                       <SocialLinks />
                     </Col>
-                    <Col lg="6">
+                    <Col lg="5">
                       <GreetingLottie animationData={code}/>
                     </Col>
                   </Row>
