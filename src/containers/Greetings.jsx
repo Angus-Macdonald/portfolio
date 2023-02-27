@@ -40,7 +40,7 @@ const Greetings = () => {
                 <div className="col px-0">
                   <Row>
                     <Col lg="7">
-                      <h4 className="h4 text-black">
+                      <h4 className="h4 text-white">
                         {greetings.title + " "}
                       </h4>
                       <p className="lead text-white">{greetings.description}</p>
