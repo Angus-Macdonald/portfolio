@@ -39,10 +39,10 @@ const Greetings = () => {
               <Container className="py-lg-md d-flex">
                 <div className="col px-0">
                   <Row>
-                    <Col lg="6">
-                      <h2 className="display-4 text-white">
+                    <Col lg="5">
+                      <h3 className="display-4 text-white">
                         {greetings.title + " "}
-                      </h2>
+                      </h3>
                       <p className="lead text-white">{greetings.description}</p>
                       <SocialLinks />
                     </Col>
