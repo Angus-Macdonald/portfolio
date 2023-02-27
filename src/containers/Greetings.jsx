@@ -40,9 +40,9 @@ const Greetings = () => {
                 <div className="col px-0">
                   <Row>
                     <Col lg="7">
-                      <p className="h4 text-white">
+                      <h4 className="text-white">
                         {greetings.title + " "}
-                      </p>
+                      </h4>
                       <p className="lead text-white">{greetings.description}</p>
                       <SocialLinks />
                     </Col>
